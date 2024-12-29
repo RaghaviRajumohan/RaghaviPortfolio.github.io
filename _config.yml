@@ -51,3 +51,6 @@ description: >
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
+
+# Disable Footer Attribution
+show_theme_banner: false
