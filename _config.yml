@@ -3,53 +3,34 @@ description: >
   Passionate about uncovering data insights to drive informed business decisions and actionable strategies
   <br><br>
 
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
-
-# Disable Footer Attribution
-show_theme_banner: false
-
-content: |
-  <!-- Page Wrapper -->
-  <div style="display: flex; flex-direction: row; max-width: 1200px; margin: 20px auto;">
+  <!-- Sidebar Wrapper -->
+  <div style="position: relative; max-width: 800px; margin: 20px auto; display: flex;">
 
     <!-- Left Sidebar -->
     <div style="flex: 1; max-width: 300px; padding: 20px; height: 600px; overflow-y: auto; border-right: 1px solid #ddd;">
-      <strong style="font-size: 1.2em; display: block; margin-bottom: 10px;">Experiences:</strong>
+      <strong style="font-size: 1em; display: block; margin-bottom: 10px;">Experiences:</strong>
 
       <!-- Experience 1 -->
-      <div style="padding: 10px 0; border-bottom: 1px solid #ddd;">
+      <div style="padding: 10px 0; position: relative; border-bottom: 1px solid #ddd;">
         <div style="font-weight: bold; color: #6e8cd4; font-size: 0.85em;">Jul 2024 - Present</div>
         <div style="font-weight: bold; font-size: 1.1em;">Data Metrics Analyst Intern</div>
         <div style="font-size: 0.9em;">University of California, Office of the President</div>
       </div>
-
+      
       <!-- Experience 2 -->
-      <div style="padding: 10px 0; border-bottom: 1px solid #ddd;">
+      <div style="padding: 10px 0; position: relative; border-bottom: 1px solid #ddd;">
         <div style="font-weight: bold; color: #6e8cd4; font-size: 0.85em;">Jan 2024 - May 2024</div>
         <div style="font-weight: bold; font-size: 1.1em;">Data Analyst and Project Mentor</div>
         <div style="font-size: 0.9em;">UCLA Alumni Affairs</div>
       </div>
 
-      <!-- Experience 3 -->
-      <div style="padding: 10px 0; border-bottom: 1px solid #ddd;">
-        <div style="font-weight: bold; color: #6e8cd4; font-size: 0.85em;">Sep 2020 - Jul 2023</div>
-        <div style="font-weight: bold; font-size: 1.1em;">Data Analysis General Manager</div>
-        <div style="font-size: 0.9em;">WageIndicator Foundation Research Lab</div>
-      </div>
+      <!-- Additional Experiences Here -->
 
-      <!-- Experience 4 -->
-      <div style="padding: 10px 0;">
-        <div style="font-weight: bold; color: #6e8cd4; font-size: 0.85em;">May 2021 - Jul 2022</div>
-        <div style="font-weight: bold; font-size: 1.1em;">Business Development Intern</div>
-        <div style="font-size: 0.9em;">TATA Electronics Pvt. Ltd.</div>
-      </div>
     </div>
 
     <!-- Main Content -->
     <div style="flex: 3; padding: 20px;">
-      <strong style="margin-top: 20px; display: block; font-size: 1.2em;">Connect with Me:</strong>
+      <strong style="margin-top: 20px;">Connect with Me:</strong>
       <ul style="list-style-type: none; padding-left: 0; margin: 10px 0;">
         <li style="margin: 5px 0;">
           <a href="https://www.linkedin.com/in/raghavirajumohan/" style="color:#6a0dad; display: flex; align-items: center;">
@@ -61,3 +42,7 @@ content: |
     </div>
 
   </div>
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
