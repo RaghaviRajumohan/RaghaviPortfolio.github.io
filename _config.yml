@@ -1,8 +1,7 @@
-show_theme_banner: false
-
 title: "Raghavi Rajumohan"
 description: >
   Passionate about uncovering data insights to drive informed business decisions and actionable strategies
+
   <br><br>
 
   <!-- Experiences Section -->
@@ -50,9 +49,7 @@ description: >
     </li>
   </ul>
 
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-cayman
+
 plugins:
   - jekyll-remote-theme
-
-# Disable Footer Attribution
-show_theme_banner: false
