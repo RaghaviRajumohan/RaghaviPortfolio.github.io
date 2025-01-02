@@ -1,13 +1,11 @@
 ## Projects
 -----
-
-HOuse Price Prediction 
+Music Streams Prediction Model & Calculator
 -----
-
-Csalculaot 
+Dynamic Concert Ticket Price Prediction Model
 -----
-
-Genre Classification 
-
-
-fkfhihfoewif
+Music Genre Classification Model
+-----
+YouTube Comments Sentiment Analysis
+-----
+Automated Music Metrics Extraction 
