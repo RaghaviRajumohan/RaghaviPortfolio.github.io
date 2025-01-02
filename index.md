@@ -1,14 +1,12 @@
 ## Projects
 -----
-Music Streams Prediction Model & Calculator
+### Music Streams Prediction Model & Calculator
 -----
-Dynamic Concert Ticket Price Prediction Model
+### Dynamic Concert Ticket Price Prediction Model
 -----
-Music Genre Classification Model
+### Music Genre Classification Model
 -----
-YouTube Comments Sentiment Analysis
+### YouTube Comments Sentiment Analysis
+-----
+### Automated Music Metrics Extraction 
 
------
-
-Automated Music Metrics Extraction 
------
