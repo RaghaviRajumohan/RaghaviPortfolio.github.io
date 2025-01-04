@@ -11,7 +11,7 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
   </div>
  
 
-<img src="images/Moving Average - Fargo Health.png" alt="Incoming Interpolate Time Series" style="width: 100%; height: auto;"/>
+
 -----
 ### Dynamic Concert Ticket Price Prediction Model
 
