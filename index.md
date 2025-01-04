@@ -20,7 +20,13 @@ The interactive Streams Prediction Calculator extends the model's utility, allow
   </div>
 </div>
 
-
+<div style="text-align: center; margin-top: 20px;">
+  <p><strong>Streams Prediction Calculator Demo</strong></p>
+  <video controls style="width: 80%; max-width: 600px; height: auto;">
+    <source src="assets/Calc_demo.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
 -----
 ### Dynamic Concert Ticket Price Prediction Model
 
