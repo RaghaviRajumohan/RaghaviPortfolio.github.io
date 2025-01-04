@@ -26,7 +26,7 @@ The interactive Streams Prediction Calculator extends the prediction model's uti
 
 
 <div style="text-align: center; margin-top: 20px;">
-  <p><strong>Streams Prediction Calculator Demo</strong></p>
+  <p><strong> Demo</strong></p>
   <video controls style="width: 80%; max-width: 400px; height: auto;">
     <source src="assets/Calc_demo.mov" type="video/quicktime">
     Your browser does not support the video tag.
