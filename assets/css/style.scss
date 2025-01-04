@@ -12,14 +12,14 @@ body {
 /* Wrapper for Flexbox layout */
 .wrapper {
   display: flex; /* Enables side-by-side layout */
-  max-width: 1200px; /* Restricts overall width */
+  max-width: 1400px; /* Increases overall page width */
   margin: 0 auto;
-  gap: 20px; /* Reduces space between panels */
+  gap: 20px; /* Space between panels */
 }
 
 /* Sidebar (Left Panel) */
 .sidebar {
-  flex: 0 0 250px; /* Fixed width for the sidebar */
+  flex: 0 0 220px; /* Reduce the width of the sidebar */
   position: sticky; /* Keeps it in place while scrolling */
   top: 20px; /* Adds space between the top and sidebar */
   margin-left: 10px; /* Reduces space between sidebar and the edge */
@@ -50,7 +50,7 @@ body {
 
 /* Main Content (Right Panel) */
 section {
-  flex: 1; /* Allows the content to take up remaining space */
+  flex: 1 0 70%; /* Increases the width of the right panel */
   background-color: #ffffff; /* White background */
   padding: 20px;
   border-radius: 8px; /* Rounded corners */
