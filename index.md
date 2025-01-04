@@ -73,12 +73,12 @@ In this project, I built a machine learning model to classify songs into genres 
   <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
     <!-- Top Right Image -->
     <div style="text-align: center;">
-      <p><strong>Confusion Matrix</strong></p>
+      <p><strong>Prediction Accuracy Matrix</strong></p>
       <img src="assets/matrix.png" alt="Confusion Matrix" style="width: 100%; height: auto;"/>
     </div>
      <!-- Bottom Right Image -->
     <div style="text-align: center;">
-      <p><strong>KNN Decision Boundaries</strong></p>
+      <p><strong>Decision Boundaries</strong></p>
       <img src="assets/decision.png" alt="KNN Decision Boundaries" style="width: 100%; height: auto;"/>
     </div>
   </div>
