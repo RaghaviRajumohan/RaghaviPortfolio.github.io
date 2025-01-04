@@ -9,7 +9,7 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; gap: 20px;">
   <div style="width: 45%; text-align: center;">
-    <p><strong> Effect of Duration and Comments on Streams</strong></p>
+    <p><em>Effect of Duration and Comments on Streams</em></p>
     <img src="assets/Effect_plot.png" alt="Effects Plot" style="width: 100%; height: auto;"/>
   </div>
   <div style="width: 45%; text-align: center;">
@@ -26,7 +26,7 @@ The interactive Streams Prediction Calculator extends the prediction model's uti
 
 
 <div style="text-align: center; margin-top: 20px;">
-  <p><strong>Demo</strong></p>
+  <p><em>Demo</em></p>
   <video controls style="width: 60%; max-width: 300px; height: auto;">
     <source src="assets/Calc_demo.mov" type="video/quicktime">
     Your browser does not support the video tag.
