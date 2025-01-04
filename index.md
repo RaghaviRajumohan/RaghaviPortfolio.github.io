@@ -2,9 +2,7 @@
 -----
 ### Music Streams Prediction Model & Calculator
 
-This project uses a regression model to analyze Spotify and YouTube data, uncovering key drivers of song popularity like comments, acoustic attributes, and optimal duration from over 20,000 records and 27 features. Advanced techniques like Boruta SHAP and VIF were applied to refine feature selection, revealing insights into audience engagement.
-
-The interactive Streams Prediction Calculator extends the model's utility, allowing users to input song features and receive real-time streaming predictions through a cloud-hosted interface. This tool empowers music industry stakeholders to optimize production, marketing, and playlist strategies with data-driven insights.
+This project analyzes Spotify and YouTube data to predict song popularity using a regression model. With over 20,000 records and 27 features, I identified key drivers like comments, acoustic attributes, and optimal duration through feature selection methods such as Boruta SHAP and VIF. The model incorporates interaction and non-linear terms to reveal nuanced relationships between musical features and engagement. Insights from this project support data-driven strategies for production, marketing, and playlist curation, empowering stakeholders to optimize audience engagement and streaming success.
 
 ![Predictive Model](https://img.shields.io/badge/Predictive_Model-blue?style=flat-square&logo=scikit-learn&logoColor=white)  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)  ![Spotify](https://img.shields.io/badge/Spotify_Data-green?style=flat-square&logo=spotify&logoColor=white)  ![YouTube](https://img.shields.io/badge/YouTube_Data-red?style=flat-square&logo=youtube&logoColor=white)  ![Regression Model](https://img.shields.io/badge/Regression_Model-lightblue?style=flat-square&logo=scikit-learn&logoColor=white)  
 
@@ -19,6 +17,11 @@ The interactive Streams Prediction Calculator extends the model's utility, allow
     <img src="assets/Corr Plot.png" alt="Correlation Plot" style="width: 100%; height: auto;"/>
   </div>
 </div>
+
+### Music Streams Prediction Model & Calculator
+
+The interactive Streams Prediction Calculator extends the prediction model's utility, allowing users to input song features and receive real-time streaming predictions through a cloud-hosted interface. This tool empowers music industry stakeholders to optimize production, marketing, and playlist strategies with data-driven insights.
+
 
 <div style="text-align: center; margin-top: 20px;">
   <p><strong>Streams Prediction Calculator Demo</strong></p>
