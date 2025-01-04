@@ -11,7 +11,7 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
   </div>
   <div style="width: 45%; text-align: center;">
     <p><strong>Figure 2:</strong> Correlation Plot of all Song Features</p>
-    <img src="assets/Corr_Plot.png" alt="Correlation Plot" style="width: 100%; height: auto;"/>
+    <img src="assets/Corr Plot.png" alt="Correlation Plot" style="width: 100%; height: auto;"/>
   </div>
 </div>
 
