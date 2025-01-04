@@ -20,7 +20,7 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
 
 -----
 
-### Music Streams Prediction Model & Calculator
+### Music Streams Prediction Calculator
 
 The interactive Streams Prediction Calculator extends the prediction model's utility, allowing users to input song features and receive real-time streaming predictions through a cloud-hosted interface. This tool empowers music industry stakeholders to optimize production, marketing, and playlist strategies with data-driven insights.
 
