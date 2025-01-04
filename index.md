@@ -41,7 +41,7 @@ I created a custom dataset to train a predictive model for concert ticket pricin
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 20px;">
   <!-- Video Section -->
-  <div style="width: 40%; text-align: center;">
+  <div style="width: 50%; text-align: center;">
     <p><strong>Demo</strong></p>
     <video controls style="width: 100%; height: auto;">
       <source src="assets/demo.mov" type="video/quicktime">
@@ -50,11 +50,12 @@ I created a custom dataset to train a predictive model for concert ticket pricin
   </div>
 
   <!-- Image Section -->
-  <div style="width: 55%; text-align: center;">
+  <div style="width: 50%; text-align: center;">
     <p><strong>Figure 2:</strong> Important Features</p>
     <img src="assets/importance.png" alt="Important Features" style="width: 100%; height: auto;"/>
   </div>
 </div>
+
 
 
 
