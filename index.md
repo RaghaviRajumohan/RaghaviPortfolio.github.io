@@ -51,17 +51,33 @@ I created a custom dataset to train a predictive model for concert ticket pricin
 
   <!-- Image Section -->
   <div style="width: 55%; text-align: center;">
-    <p><strong>Figure 2:</strong> Important Features</p>
+    <p><strong>Figure 1:</strong> Important Features</p>
     <img src="assets/importance.png" alt="Important Features" style="width: 100%; height: auto;"/>
   </div>
 </div>
 
 
-
-
-
 -----
 ### Music Genre Classification Model
+
+In this project, I built a machine learning model to classify songs into genres based on their audio features, such as tempo, rhythm, and frequency, which were extracted from audio files. I identified key characteristics that distinguish genres and trained a predictive model to achieve accurate classifications, showcasing the power of data-driven approaches in understanding and organizing music. This work has applications in music recommendation systems, playlist curation, and audience engagement strategies for the music industry.
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; gap: 20px;">
+  <div style="width: 45%; text-align: center;">
+    <p><strong>Figure 1:</strong> Effect of Song Duration and Number of Comments on Streams</p>
+    <img src="assets/Effect_plot.png" alt="Effects Plot" style="width: 100%; height: auto;"/>
+  </div>
+  <div style="width: 45%; text-align: center;">
+    <p><strong>Figure 2:</strong> Correlation Plot of all Song Features</p>
+    <img src="assets/Corr Plot.png" alt="Correlation Plot" style="width: 100%; height: auto;"/>
+  </div>
+    <div style="width: 45%; text-align: center;">
+    <p><strong>Figure 2:</strong> Correlation Plot of all Song Features</p>
+    <img src="assets/Corr Plot.png" alt="Correlation Plot" style="width: 100%; height: auto;"/>
+  </div>
+</div>
+
+
 -----
 ### YouTube Comments Sentiment Analysis
 -----
