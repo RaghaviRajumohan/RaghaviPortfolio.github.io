@@ -51,4 +51,13 @@ description: >
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
+  - jekyll-remote-theme
+
+# Optional: Add Sass compression (not necessary but can help)
+sass:
+  style: compressed
+
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
 - jekyll-remote-theme
