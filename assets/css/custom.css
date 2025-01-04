@@ -1,0 +1,8 @@
+/* Custom CSS to override the theme */
+.wrapper {
+    max-width: 1200px; /* Adjust the width of the content area */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Adjust padding for spacing */
+    border: 1px solid #ddd; /* Add or modify borders */
+    border-radius: 8px; /* Add rounded corners if needed */
+}
