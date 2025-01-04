@@ -18,6 +18,8 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
   </div>
 </div>
 
+-----
+
 ### Music Streams Prediction Model & Calculator
 
 The interactive Streams Prediction Calculator extends the prediction model's utility, allowing users to input song features and receive real-time streaming predictions through a cloud-hosted interface. This tool empowers music industry stakeholders to optimize production, marketing, and playlist strategies with data-driven insights.
@@ -25,7 +27,7 @@ The interactive Streams Prediction Calculator extends the prediction model's uti
 
 <div style="text-align: center; margin-top: 20px;">
   <p><strong>Streams Prediction Calculator Demo</strong></p>
-  <video controls style="width: 80%; max-width: 600px; height: auto;">
+  <video controls style="width: 80%; max-width: 400px; height: auto;">
     <source src="assets/Calc_demo.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
