@@ -9,6 +9,10 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
     <p><strong>Figure 1:</strong> Effect of Song Duration and Number of Comments on Streams</p>
     <img src="assets/Effect_plot.png" alt="Effects Plot" style="width: 100%; height: auto;"/>
   </div>
+  <div style="width: 60%; padding-right: 10px;">
+    <p><strong>Figure 1:</strong> Correlation Plot of all Song Features</p>
+    <img src="assets/Corr Plot.png" alt="Effects Plot" style="width: 100%; height: auto;"/>
+  </div>
 </div>
 
 -----
