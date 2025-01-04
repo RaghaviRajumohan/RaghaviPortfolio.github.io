@@ -9,8 +9,7 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
     <p><strong>Figure 1:</strong> Incoming Interpolate Time Series with Moving Average</p>
     <img src="assets/Effect_plot.png" alt="Effects Plot" style="width: 100%; height: auto;"/>
   </div>
- 
-<img src="assets/Effect_plot.png" alt="Effects Plot" style="width: 100%; height: auto;"/>
+</div>
 
 -----
 ### Dynamic Concert Ticket Price Prediction Model
