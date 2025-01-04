@@ -7,70 +7,58 @@
 
 /* General Body Styling */
 body {
-    background-color: #f9f9f9; /* Light gray background for a clean look */
-    color: #333333; /* Dark gray text for readability */
-    font-family: Arial, sans-serif; /* Ensure clean, professional font */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333333;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-/* Header Styling */
-header {
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: #ffffff; /* White background for contrast */
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd; /* Subtle border */
+/* Wrapper Styling */
+.wrapper {
+    display: flex; /* Enables side-by-side layout for the panels */
+    max-width: 1200px; /* Limits the width of the content */
+    margin: 20px auto; /* Centers the wrapper with margin */
+    gap: 30px; /* Adds space between the panels */
 }
 
-header h1 {
-    font-size: 2em;
-    color: #6a0dad; /* Purple color for branding */
-}
-
-header p {
-    color: #555555; /* Neutral gray for descriptions */
-}
-
-/* Sidebar (Left Section) */
+/* Sidebar (Left Panel) */
 .sidebar {
-    background-color: #ffffff; /* White background for sidebar */
+    flex: 0 0 250px; /* Fixed width for the sidebar */
+    background-color: #ffffff; /* White background */
     padding: 20px;
     border: 1px solid #ddd; /* Subtle border */
     border-radius: 10px; /* Rounded corners */
-    margin: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.sidebar h2 {
-    color: #6a0dad; /* Purple text for consistency */
-}
-
-/* Main Content (Right Section) */
+/* Main Content (Right Panel) */
 section {
-    margin: 20px auto;
+    flex: 1; /* Takes up the remaining space */
+    margin: 20px 0; /* Adds vertical spacing */
     padding: 20px;
-    max-width: 800px; /* Limit width for readability */
-    background-color: #ffffff; /* White background for content */
+    background-color: #ffffff; /* White background */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 /* Links */
 a {
-    color: #6e8cd4; /* Light blue for links */
+    color: #6e8cd4;
     text-decoration: none;
 }
 
 a:hover {
-    color: #8a2be2; /* Bright purple on hover */
+    color: #8a2be2;
     text-decoration: underline;
 }
 
 /* Buttons */
 button {
-    background-color: #6a0dad; /* Purple background for buttons */
-    color: #ffffff; /* White text */
+    background-color: #6a0dad;
+    color: #ffffff;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -78,5 +66,5 @@ button {
 }
 
 button:hover {
-    background-color: #8a2be2; /* Darker purple on hover */
+    background-color: #8a2be2;
 }
