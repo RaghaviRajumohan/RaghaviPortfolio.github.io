@@ -66,7 +66,7 @@ In this project, I built a machine learning model to classify songs into genres 
   <!-- Left Image Section -->
   <div style="flex: 1; text-align: center;">
     <p><strong>Audio Feature Visualizations</strong></p>
-    <img src="assets/Audio_features.png" alt="Audio Features" style="width: 100%; height: 600px; object-fit: cover;"/>
+    <img src="assets/Audio_features.png" alt="Audio Features" style="width: 100%; height: auto;"/>
   </div>
 
   <!-- Right Images Section -->
