@@ -1,0 +1,52 @@
+---
+# Front matter for Jekyll to process the SCSS file
+---
+
+/* Import Minimal Theme default styles */
+@import "jekyll-theme-minimal";
+
+/* Adjust the overall page margins */
+body {
+    margin: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Customize header styles */
+header {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #6a0dad; /* Purple text */
+}
+
+/* Style for main content */
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Customize link colors */
+a {
+    color: #6e8cd4; /* Light blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8a2be2; /* Bright purple on hover */
+    text-decoration: underline;
+}
+
+/* Adjust section margins */
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Example: Customize the appearance of h1 headers */
+h1 {
+    color: #333333; /* Dark gray text */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
