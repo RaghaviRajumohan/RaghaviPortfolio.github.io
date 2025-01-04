@@ -5,32 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% seo %}
+{% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-    <style>
-      /* Adjust width of wrapper to reduce empty space */
-      .wrapper {
-        max-width: 2000px; /* Increase max width of the content */
-        margin: 0 auto; /* Keep the content centered */
-        padding: 20px; /* Maintain padding for readability */
-      }
-
-      /* Reduce space above the header */
-      header {
-        margin-top: 0; /* Remove unnecessary margin */
-        padding-top: 10px; /* Add slight padding if needed */
-      }
-
-      /* Adjust the title spacing */
-      h1 {
-        margin-top: 0; /* Remove margin above the title */
-        font-size: 2.5em; /* Adjust font size if needed */
-      }
-    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -65,5 +45,6 @@
 
       </section>
     </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
