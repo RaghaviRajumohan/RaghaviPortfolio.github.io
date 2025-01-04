@@ -9,11 +9,11 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; gap: 20px;">
   <div style="width: 45%; text-align: center;">
-    <p><strong>Figure 1:</strong> Effect of Song Duration and Number of Comments on Streams</p>
+    <p><strong> Effect of Duration and Comments on Streams</strong></p>
     <img src="assets/Effect_plot.png" alt="Effects Plot" style="width: 100%; height: auto;"/>
   </div>
   <div style="width: 45%; text-align: center;">
-    <p><strong>Figure 2:</strong> Correlation Plot of all Song Features</p>
+    <p><strong>Correlation Plot of Features</strong></p>
     <img src="assets/Corr Plot.png" alt="Correlation Plot" style="width: 100%; height: auto;"/>
   </div>
 </div>
@@ -51,7 +51,7 @@ I created a custom dataset to train a predictive model for concert ticket pricin
 
   <!-- Image Section -->
   <div style="width: 55%; text-align: center;">
-    <p><strong>Figure 1:</strong> Important Features</p>
+    <p><strong>Important Features</strong></p>
     <img src="assets/importance.png" alt="Important Features" style="width: 100%; height: auto;"/>
   </div>
 </div>
@@ -66,7 +66,7 @@ In this project, I built a machine learning model to classify songs into genres 
   <!-- Left Image Section -->
   <div style="flex: 1; text-align: center;">
     <p><strong>Audio Feature Visualizations</strong></p>
-    <img src="assets/Audio_features.png" alt="Audio Features" style="width: 100%; height: auto;"/>
+    <img src="assets/Audio_features.png" alt="Audio Features" style="width: 100%; height: 600px; object-fit: cover;"/>
   </div>
 
   <!-- Right Images Section -->
