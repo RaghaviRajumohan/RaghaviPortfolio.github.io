@@ -27,7 +27,9 @@ The interactive Streams Prediction Calculator extends the model's utility, allow
     Your browser does not support the video tag.
   </video>
 </div>
+
 -----
+
 ### Dynamic Concert Ticket Price Prediction Model
 
 
