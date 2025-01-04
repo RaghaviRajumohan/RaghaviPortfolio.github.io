@@ -62,20 +62,28 @@ I created a custom dataset to train a predictive model for concert ticket pricin
 
 In this project, I built a machine learning model to classify songs into genres based on their audio features, such as tempo, rhythm, and frequency, which were extracted from audio files. I identified key characteristics that distinguish genres and trained a predictive model to achieve accurate classifications, showcasing the power of data-driven approaches in understanding and organizing music. This work has applications in music recommendation systems, playlist curation, and audience engagement strategies for the music industry.
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; gap: 20px;">
-  <div style="width: 45%; text-align: center;">
-    <p><strong>Figure 1:</strong> Effect of Song Duration and Number of Comments on Streams</p>
-    <img src="assets/Effect_plot.png" alt="Effects Plot" style="width: 100%; height: auto;"/>
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 20px;">
+  <!-- Left Image Section -->
+  <div style="flex: 1; text-align: center;">
+    <p><strong>Audio Feature Visualizations</strong></p>
+    <img src="assets/Audio_features.png" alt="Audio Features" style="width: 100%; height: auto;"/>
   </div>
-  <div style="width: 45%; text-align: center;">
-    <p><strong>Figure 2:</strong> Correlation Plot of all Song Features</p>
-    <img src="assets/Corr Plot.png" alt="Correlation Plot" style="width: 100%; height: auto;"/>
-  </div>
-    <div style="width: 45%; text-align: center;">
-    <p><strong>Figure 2:</strong> Correlation Plot of all Song Features</p>
-    <img src="assets/Corr Plot.png" alt="Correlation Plot" style="width: 100%; height: auto;"/>
+
+  <!-- Right Images Section -->
+  <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+    <!-- Top Right Image -->
+    <div style="text-align: center;">
+      <p><strong>Confusion Matrix</strong></p>
+      <img src="assets/matrix.png" alt="Confusion Matrix" style="width: 100%; height: auto;"/>
+    </div>
+     <!-- Bottom Right Image -->
+    <div style="text-align: center;">
+      <p><strong>KNN Decision Boundaries</strong></p>
+      <img src="assets/decision.png" alt="KNN Decision Boundaries" style="width: 100%; height: auto;"/>
+    </div>
   </div>
 </div>
+
 
 
 -----
