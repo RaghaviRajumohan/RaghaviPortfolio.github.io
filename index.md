@@ -39,13 +39,23 @@ The interactive Streams Prediction Calculator extends the prediction model's uti
 
 I created a custom dataset to train a predictive model for concert ticket pricing, incorporating factors like artist popularity, event timing, and supporting acts. Through analysis and model development, I identified key drivers of ticket prices and provided actionable insights into pricing strategies. Additionally, I developed a Dynamic Ticket Price Calculator, a user-friendly tool that allows users to input event details and receive instant price predictions. This project empowers stakeholders in the events industry to optimize revenue and enhance decision-making with data-driven strategies.
 
-<div style="text-align: center; margin-top: 20px;">
-  <p><strong> Demo</strong></p>
-  <video controls style="width: 80%; max-width: 400px; height: auto;">
-    <source src="assets/demo.mov" type="video/quicktime">
-    Your browser does not support the video tag.
-  </video>
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 20px;">
+  <!-- Video Section -->
+  <div style="width: 45%; text-align: center;">
+    <p><strong>Demo</strong></p>
+    <video controls style="width: 100%; height: auto;">
+      <source src="assets/demo.mov" type="video/quicktime">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Image Section -->
+  <div style="width: 45%; text-align: center;">
+    <p><strong>Figure 2:</strong> Important Features</p>
+    <img src="assets/importance.png" alt="Important Features" style="width: 100%; height: auto;"/>
+  </div>
 </div>
+
 
 -----
 ### Music Genre Classification Model
