@@ -2,60 +2,76 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
-  padding: 50px;
+  background-color: #f9f9f9; /* Light gray background for the entire page */
+  padding: 0; /* Remove unnecessary padding */
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
 }
 
-/* Flexbox wrapper for sidebar and main content */
+/* Wrapper for Flexbox layout */
 .wrapper {
   display: flex; /* Enables side-by-side layout */
-  max-width: 1200px; /* Restricts overall page width */
+  max-width: 1200px; /* Restricts overall width */
   margin: 0 auto;
-  gap: 40px; /* Adds space between sidebar and main content */
+  gap: 20px; /* Reduces space between panels */
 }
 
 /* Sidebar (Left Panel) */
 .sidebar {
-  flex: 0 0 270px; /* Fixed width for the sidebar */
-  position: sticky; /* Keeps the sidebar in place while scrolling */
+  flex: 0 0 250px; /* Fixed width for the sidebar */
+  position: sticky; /* Keeps it in place while scrolling */
   top: 20px; /* Adds space between the top and sidebar */
+  margin-left: 10px; /* Reduces space between sidebar and the edge */
   background-color: #ffffff; /* White background */
   padding: 20px;
   border: 1px solid #ddd; /* Subtle border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  z-index: 10; /* Ensures it stays above the right panel */
+  color: #333333; /* Darker text for better readability */
+}
+
+/* Sidebar Headings */
+.sidebar h2 {
+  color: #6a0dad; /* Purple heading color */
+  font-weight: bold;
+}
+
+/* Sidebar Links */
+.sidebar a {
+  color: #267CB9; /* Blue links */
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #069; /* Darker blue on hover */
+  font-weight: bold;
 }
 
 /* Main Content (Right Panel) */
 section {
-  flex: 1; /* Allows the right panel to take up remaining space */
+  flex: 1; /* Allows the content to take up remaining space */
   background-color: #ffffff; /* White background */
   padding: 20px;
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-right: 10px; /* Ensures content is spaced from the edge */
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #222;
+  color: #222; /* Darker headings */
   margin: 0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
-  margin: 0 0 20px;
-}
-
-/* Links */
+/* Links in Main Content */
 a {
-  color: #267CB9;
+  color: #267CB9; /* Blue links */
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #069;
+  color: #069; /* Darker blue on hover */
   font-weight: bold;
 }
 
