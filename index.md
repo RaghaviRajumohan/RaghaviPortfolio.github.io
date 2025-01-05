@@ -91,6 +91,21 @@ In this project, I built a machine learning model to classify songs into genres 
 
 This project explores the sentiment behind audience reactions to YouTube videos in the music industry. Using the YouTube API, I extracted video metadata and comments, performed data cleaning, and built a machine learning model to classify comments as positive, neutral, or negative. I also conducted a regression analysis using sentiment scores and engagement metrics (likes, comments) to predict video view counts. This work provides actionable insights for optimizing content strategies and deepening audience connections for artists and industry stakeholders.
 
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-top: 20px;">
+  <!-- Word Cloud Section -->
+  <div style="width: 45%; text-align: center;">
+    <p><strong>Word Cloud of Comments</strong></p>
+    <img src="assets/word_cloud.png" alt="Word Cloud" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);"/>
+  </div>
+
+  <!-- Sentiment Distribution Section -->
+  <div style="width: 45%; text-align: center;">
+    <p><strong>Sentiment Distribution</strong></p>
+    <img src="assets/sentiment_dist.png" alt="Sentiment Distribution" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);"/>
+  </div>
+</div>
+
+
 -----
 ### Automated Music Metrics Extraction 
 
