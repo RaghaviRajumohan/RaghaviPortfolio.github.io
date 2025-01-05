@@ -2,6 +2,7 @@
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
+  
 ### Music Streams Prediction Model 
 
 This project analyzes Spotify and YouTube data to predict song popularity using a regression model. With over 20,000 records and 27 features, I identified key drivers like comments, acoustic attributes, and optimal duration through feature selection methods such as Boruta SHAP and VIF. The model incorporates interaction and non-linear terms to reveal nuanced relationships between musical features and engagement. Insights from this project support data-driven strategies for production, marketing, and playlist curation, empowering stakeholders to optimize audience engagement and streaming success.
@@ -23,6 +24,7 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
+  
 ### Music Streams Prediction Calculator
 
 The interactive Streams Prediction Calculator extends the prediction model's utility, allowing users to input song features and receive real-time streaming predictions through a cloud-hosted interface. This tool empowers music industry stakeholders to optimize production, marketing, and playlist strategies with data-driven insights.
@@ -39,6 +41,7 @@ The interactive Streams Prediction Calculator extends the prediction model's uti
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
+  
 ### Dynamic Concert Ticket Price Prediction Model
 
 I created a custom dataset to train a predictive model for concert ticket pricing, incorporating factors like artist popularity, event timing, and supporting acts. Through analysis and model development, I identified key drivers of ticket prices and provided actionable insights into pricing strategies. Additionally, I developed a Dynamic Ticket Price Calculator, a user-friendly tool that allows users to input event details and receive instant price predictions. This project empowers stakeholders in the events industry to optimize revenue and enhance decision-making with data-driven strategies.
@@ -62,6 +65,7 @@ I created a custom dataset to train a predictive model for concert ticket pricin
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
+  
 ### Music Genre Classification Model
 
 In this project, I built a machine learning model to classify songs into genres based on their audio features, such as tempo, rhythm, and frequency, which were extracted from audio files. I identified key characteristics that distinguish genres and trained a predictive model to achieve accurate classifications, showcasing the power of data-driven approaches in understanding and organizing music. This work has applications in music recommendation systems, playlist curation, and audience engagement strategies for the music industry.
@@ -88,6 +92,7 @@ In this project, I built a machine learning model to classify songs into genres 
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
+  
 ### YouTube Comments Sentiment Analysis
 
 This project explores the sentiment behind audience reactions to YouTube videos in the music industry. Using the YouTube API, I extracted video metadata and comments, performed data cleaning, and built a machine learning model to classify comments as positive, neutral, or negative. I also conducted a regression analysis using sentiment scores and engagement metrics (likes, comments) to predict video view counts. This work provides actionable insights for optimizing content strategies and deepening audience connections for artists and industry stakeholders.
@@ -108,6 +113,7 @@ This project explores the sentiment behind audience reactions to YouTube videos 
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
+  
 ### Automated Music Metrics Extraction 
 
 This project automates the tracking and analysis of music-related metrics across platforms. Using the YouTube Data API and Spotify Web API, metrics like views, likes, comments, subscriber counts, Spotify popularity, and follower data are extracted daily and stored in a centralized Google Sheet. Comment data, including timestamps and sentiment scores, is also collected for engagement analysis.
