@@ -1,7 +1,7 @@
 ## Projects
 -----
 
-<div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
+<div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #BFEFFF;">
 <h3>Music Streams Prediction Model</h3>
 
 <p>
@@ -30,7 +30,7 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
 
 -----
 
-<div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
+<div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #87CEEB;">
 <h3>Music Streams Prediction Calculator</h3>
 
 <p>
