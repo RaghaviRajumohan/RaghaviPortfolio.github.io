@@ -2,12 +2,19 @@
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
-  
-### Music Streams Prediction Model 
+<h3>Music Streams Prediction Model</h3>
 
+<p>
 This project analyzes Spotify and YouTube data to predict song popularity using a regression model. With over 20,000 records and 27 features, I identified key drivers like comments, acoustic attributes, and optimal duration through feature selection methods such as Boruta SHAP and VIF. The model incorporates interaction and non-linear terms to reveal nuanced relationships between musical features and engagement. Insights from this project support data-driven strategies for production, marketing, and playlist curation, empowering stakeholders to optimize audience engagement and streaming success.
+</p>
 
-![Predictive Model](https://img.shields.io/badge/Predictive_Model-blue?style=flat-square&logo=scikit-learn&logoColor=white)  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)  ![Spotify](https://img.shields.io/badge/Spotify_Data-green?style=flat-square&logo=spotify&logoColor=white)  ![YouTube](https://img.shields.io/badge/YouTube_Data-red?style=flat-square&logo=youtube&logoColor=white)  ![Regression Model](https://img.shields.io/badge/Regression_Model-lightblue?style=flat-square&logo=scikit-learn&logoColor=white)  
+<p>
+<img src="https://img.shields.io/badge/Predictive_Model-blue?style=flat-square&logo=scikit-learn&logoColor=white" alt="Predictive Model Badge" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge" />
+<img src="https://img.shields.io/badge/Spotify_Data-green?style=flat-square&logo=spotify&logoColor=white" alt="Spotify Badge" />
+<img src="https://img.shields.io/badge/YouTube_Data-red?style=flat-square&logo=youtube&logoColor=white" alt="YouTube Badge" />
+<img src="https://img.shields.io/badge/Regression_Model-lightblue?style=flat-square&logo=scikit-learn&logoColor=white" alt="Regression Model Badge" />
+</p>
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; gap: 20px;">
   <div style="width: 45%; text-align: center;">
@@ -20,6 +27,7 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
   </div>
 </div>
 </div>
+
 
 -----
 
