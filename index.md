@@ -113,20 +113,20 @@ This project automates the tracking and analysis of music-related metrics across
 
 By streamlining data collection, this solution provides real-time updates and actionable insights for artists, managers, and stakeholders, enabling efficient performance evaluation, audience sentiment analysis, and trend identification across platforms.
 
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 20px;">
   <!-- First Demo Section -->
-  <div style="width: 45%; text-align: center;">
+  <div style="width: 80%; text-align: center;">
     <p><strong>Demo 1: Daily Metrics Tracker</strong></p>
-    <video controls style="width: 100%; height: auto;">
+    <video autoplay loop muted controls style="width: 100%; height: auto;">
       <source src="assets/top_videos.mov" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
   </div>
 
   <!-- Second Demo Section -->
-  <div style="width: 45%; text-align: center;">
+  <div style="width: 80%; text-align: center;">
     <p><strong>Demo 2: Comments Tracker</strong></p>
-    <video controls style="width: 100%; height: auto;">
+    <video autoplay loop muted controls style="width: 100%; height: auto;">
       <source src="assets/comments_track.mov" type="video/quicktime">
       Your browser does not support the video tag.
     </video>
