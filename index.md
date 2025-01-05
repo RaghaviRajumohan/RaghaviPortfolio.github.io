@@ -28,14 +28,14 @@ This project analyzes Spotify and YouTube data to predict song popularity using 
 </div>
 </div>
 
-
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
-  
-### Music Streams Prediction Calculator
+<h3>Music Streams Prediction Calculator</h3>
 
+<p>
 The interactive Streams Prediction Calculator extends the prediction model's utility, allowing users to input song features and receive real-time streaming predictions through a cloud-hosted interface. This tool empowers music industry stakeholders to optimize production, marketing, and playlist strategies with data-driven insights.
+</p>
 
 <div style="text-align: center; margin-top: 20px;">
   <p><strong>Demo</strong></p>
@@ -49,10 +49,11 @@ The interactive Streams Prediction Calculator extends the prediction model's uti
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
-  
-### Dynamic Concert Ticket Price Prediction Model
+<h3>Dynamic Concert Ticket Price Prediction Model</h3>
 
+<p>
 I created a custom dataset to train a predictive model for concert ticket pricing, incorporating factors like artist popularity, event timing, and supporting acts. Through analysis and model development, I identified key drivers of ticket prices and provided actionable insights into pricing strategies. Additionally, I developed a Dynamic Ticket Price Calculator, a user-friendly tool that allows users to input event details and receive instant price predictions. This project empowers stakeholders in the events industry to optimize revenue and enhance decision-making with data-driven strategies.
+</p>
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 20px;">
   <div style="width: 50%; text-align: center;">
@@ -62,7 +63,6 @@ I created a custom dataset to train a predictive model for concert ticket pricin
       Your browser does not support the video tag.
     </video>
   </div>
-
   <div style="width: 55%; text-align: center;">
     <p><strong>Important Features</strong></p>
     <img src="assets/importance.png" alt="Important Features" style="width: 100%; height: auto;"/>
@@ -73,17 +73,17 @@ I created a custom dataset to train a predictive model for concert ticket pricin
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
-  
-### Music Genre Classification Model
+<h3>Music Genre Classification Model</h3>
 
+<p>
 In this project, I built a machine learning model to classify songs into genres based on their audio features, such as tempo, rhythm, and frequency, which were extracted from audio files. I identified key characteristics that distinguish genres and trained a predictive model to achieve accurate classifications, showcasing the power of data-driven approaches in understanding and organizing music. This work has applications in music recommendation systems, playlist curation, and audience engagement strategies for the music industry.
+</p>
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 20px;">
   <div style="flex: 1; text-align: center;">
     <p><strong>Audio Feature Visualizations</strong></p>
     <img src="assets/Audio_features.png" alt="Audio Features" style="width: 100%; height: auto;"/>
   </div>
-
   <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
     <div style="text-align: center;">
       <p><strong>Prediction Accuracy Matrix</strong></p>
@@ -100,20 +100,20 @@ In this project, I built a machine learning model to classify songs into genres 
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
-  
-### YouTube Comments Sentiment Analysis
+<h3>YouTube Comments Sentiment Analysis</h3>
 
+<p>
 This project explores the sentiment behind audience reactions to YouTube videos in the music industry. Using the YouTube API, I extracted video metadata and comments, performed data cleaning, and built a machine learning model to classify comments as positive, neutral, or negative. I also conducted a regression analysis using sentiment scores and engagement metrics (likes, comments) to predict video view counts. This work provides actionable insights for optimizing content strategies and deepening audience connections for artists and industry stakeholders.
+</p>
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-top: 20px;">
   <div style="width: 45%; text-align: center;">
     <p><strong>Word Cloud of Comments</strong></p>
-    <img src="assets/word_cloud.png" alt="Word Cloud" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);"/>
+    <img src="assets/word_cloud.png" alt="Word Cloud" style="width: 100%; height: auto;"/>
   </div>
-
   <div style="width: 45%; text-align: center;">
     <p><strong>Sentiment Distribution</strong></p>
-    <img src="assets/sentiment_dist.png" alt="Sentiment Distribution" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);"/>
+    <img src="assets/sentiment_dist.png" alt="Sentiment Distribution" style="width: 100%; height: auto;"/>
   </div>
 </div>
 </div>
@@ -121,12 +121,15 @@ This project explores the sentiment behind audience reactions to YouTube videos 
 -----
 
 <div style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin-bottom: 30px; border-radius: 8px; background-color: #fff;">
-  
-### Automated Music Metrics Extraction 
+<h3>Automated Music Metrics Extraction</h3>
 
+<p>
 This project automates the tracking and analysis of music-related metrics across platforms. Using the YouTube Data API and Spotify Web API, metrics like views, likes, comments, subscriber counts, Spotify popularity, and follower data are extracted daily and stored in a centralized Google Sheet. Comment data, including timestamps and sentiment scores, is also collected for engagement analysis.
+</p>
 
+<p>
 By streamlining data collection, this solution provides real-time updates and actionable insights for artists, managers, and stakeholders, enabling efficient performance evaluation, audience sentiment analysis, and trend identification across platforms.
+</p>
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 20px;">
   <div style="width: 80%; text-align: center;">
@@ -136,7 +139,6 @@ By streamlining data collection, this solution provides real-time updates and ac
       Your browser does not support the video tag.
     </video>
   </div>
-
   <div style="width: 80%; text-align: center;">
     <p><strong>Demo 2: Comments Tracker</strong></p>
     <video autoplay loop muted controls style="width: 100%; height: auto;">
@@ -146,5 +148,3 @@ By streamlining data collection, this solution provides real-time updates and ac
   </div>
 </div>
 </div>
-
------
