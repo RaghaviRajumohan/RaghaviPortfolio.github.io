@@ -2,8 +2,23 @@ title: "Raghavi Rajumohan"
 description: >
   Passionate about uncovering data insights to drive informed business decisions and actionable strategies
 
-  <br><br>
+# Remove the remote_theme line to ensure it uses local files
+# remote_theme: pages-themes/minimal@v0.2.0
 
+# Specify no theme to use local files
+theme: null
+
+# Keep the necessary plugins
+plugins:
+  - jekyll-remote-theme
+
+# Optional: Add Sass compression (can help optimize styling)
+sass:
+  style: compressed
+
+# Your experiences and social links (HTML content will still render as-is)
+experiences: >
+  <br><br>
   <!-- Experiences Section -->
   <strong style="font-size: 1em; display: block; margin-bottom: 5px; margin-top: 0;">Experiences:</strong>
   <div style="position: relative; max-width: 800px; margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
@@ -38,7 +53,8 @@ description: >
 
   </div>
 
-  <!-- Social Links Section -->
+# Social Links Section
+social_links: >
   <strong style="margin-top: 20px; display: block;">Connect with Me:</strong>
   <ul style="list-style-type: none; padding-left: 0; margin: 10px 0;">
     <li style="margin: 5px 0;">
@@ -48,16 +64,3 @@ description: >
       </a>
     </li>
   </ul>
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
-
-# Optional: Add Sass compression (not necessary but can help)
-sass:
-  style: compressed
-
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
