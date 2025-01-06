@@ -2,21 +2,16 @@ title: "Raghavi Rajumohan"
 description: >
   Passionate about uncovering data insights to drive informed business decisions and actionable strategies
 
-# Remove the remote_theme line to ensure it uses local files
-# remote_theme: pages-themes/minimal@v0.2.0
-
-# Specify no theme to use local files
 theme: null
 
-# Keep the necessary plugins
 plugins:
+  - jekyll-seo-tag
   - jekyll-remote-theme
 
-# Optional: Add Sass compression (can help optimize styling)
 sass:
   style: compressed
 
-# Your experiences and social links (HTML content will still render as-is)
+# Experiences Section
 experiences: >
   <br><br>
   <!-- Experiences Section -->
