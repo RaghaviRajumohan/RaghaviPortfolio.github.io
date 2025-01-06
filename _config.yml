@@ -1,4 +1,3 @@
-# Site title and description
 title: "Raghavi Rajumohan"
 description: >
   Passionate about uncovering data insights to drive informed business decisions and actionable strategies
@@ -50,19 +49,15 @@ description: >
     </li>
   </ul>
 
-# Theme and Plugins
-theme: minimal
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-# URL and base configuration
-baseurl: "" # Leave blank unless hosting the site in a subdirectory
-url: "https://raghavirajumohan-rythemsofdata.github.io" # Replace with your GitHub Pages URL
-
-# Sass compression for cleaner CSS output (optional)
+# Optional: Add Sass compression (not necessary but can help)
 sass:
   style: compressed
 
-# Additional optional configurations
-markdown: kramdown
-highlighter: rouge
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
