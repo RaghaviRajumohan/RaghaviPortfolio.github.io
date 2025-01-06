@@ -1,63 +1,127 @@
-title: "Raghavi Rajumohan"
-description: >
-  Passionate about uncovering data insights to drive informed business decisions and actionable strategies
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raghavi Rajumohan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      color: #6a0dad;
+    }
+    .description {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 0.95em;
+      color: #555;
+    }
+    .experiences {
+      font-size: 0.85em;
+    }
+    .experience-item {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .experience-item:last-child {
+      border-bottom: none;
+    }
+    .date {
+      font-weight: bold;
+      color: #6e8cd4;
+      font-size: 0.8em;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 1em;
+      margin-top: 5px;
+    }
+    .company {
+      font-size: 0.9em;
+      color: #777;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      gap: 15px;
+    }
+    .social-icons a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #6a0dad;
+    }
+    .social-icons img {
+      width: 25px;
+      height: 25px;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Raghavi Rajumohan</h1>
+    <p class="description">
+      Passionate about uncovering data insights to drive informed business decisions and actionable strategies.
+    </p>
+    <strong style="display: block; margin-bottom: 10px;">Experiences:</strong>
+    <div class="experiences">
+      <!-- Experience 1 -->
+      <div class="experience-item">
+        <div class="date">Jul 2024 - Present</div>
+        <div class="title">Data Metrics Analyst Intern</div>
+        <div class="company">University of California, Office of the President</div>
+      </div>
 
-  <br><br>
+      <!-- Experience 2 -->
+      <div class="experience-item">
+        <div class="date">Jan 2024 - May 2024</div>
+        <div class="title">Data Analyst and Project Mentor</div>
+        <div class="company">UCLA Alumni Affairs</div>
+      </div>
 
-  <!-- Experiences Section -->
-  <strong style="font-size: 1em; display: block; margin-bottom: 5px; margin-top: 0;">Experiences:</strong>
-  <div style="position: relative; max-width: 800px; margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+      <!-- Experience 3 -->
+      <div class="experience-item">
+        <div class="date">Sep 2020 - Jul 2023</div>
+        <div class="title">Data Analysis General Manager</div>
+        <div class="company">WageIndicator Foundation Research Lab</div>
+      </div>
 
-    <!-- Experience 1 -->
-    <div style="padding: 10px 0; position: relative; border-bottom: 1px solid #ddd;">
-      <div style="font-weight: bold; color: #6e8cd4; font-size: 0.85em;">Jul 2024 - Present</div>
-      <div style="font-weight: bold; font-size: 1.1em;">Data Metrics Analyst Intern</div>
-      <div style="font-size: 0.9em;">University of California, Office of the President</div>
+      <!-- Experience 4 -->
+      <div class="experience-item">
+        <div class="date">May 2021 - Jul 2022</div>
+        <div class="title">Business Development Intern</div>
+        <div class="company">TATA Electronics Pvt. Ltd.</div>
+      </div>
     </div>
-  
-    <!-- Experience 2 -->
-    <div style="padding: 10px 0; position: relative; border-bottom: 1px solid #ddd;">
-      <div style="font-weight: bold; color: #6e8cd4; font-size: 0.85em;">Jan 2024 - May 2024</div>
-      <div style="font-weight: bold; font-size: 1.1em;">Data Analyst and Project Mentor</div>
-      <div style="font-size: 0.9em;">UCLA Alumni Affairs</div>
-    </div>
-  
-    <!-- Experience 3 -->
-    <div style="padding: 10px 0; position: relative; border-bottom: 1px solid #ddd;">
-      <div style="font-weight: bold; color: #6e8cd4; font-size: 0.85em;">Sep 2020 - Jul 2023</div>
-      <div style="font-weight: bold; font-size: 1.1em;">Data Analysis General Manager</div>
-      <div style="font-size: 0.9em;">WageIndicator Foundation Research Lab</div>
-    </div>
-  
-    <!-- Experience 4 -->
-    <div style="padding: 10px 0; position: relative;">
-      <div style="font-weight: bold; color: #6e8cd4; font-size: 0.85em;">May 2021 - Jul 2022</div>
-      <div style="font-weight: bold; font-size: 1.1em;">Business Development Intern</div>
-      <div style="font-size: 0.9em;">TATA Electronics Pvt. Ltd.</div>
-    </div>
 
-  </div>
-
-  <!-- Social Links Section -->
-  <strong style="margin-top: 20px; display: block;">Connect with Me:</strong>
-  <ul style="list-style-type: none; padding-left: 0; margin: 10px 0;">
-    <li style="margin: 5px 0;">
-      <a href="https://www.linkedin.com/in/raghavirajumohan/" style="color:#6a0dad; display: flex; align-items: center;">
-        <img src="images/linkedin.png" alt="LinkedIn" style="width:30px;height:30px;margin-right:10px;">
-        LinkedIn
+    <strong style="display: block; margin-top: 20px;">Connect with Me:</strong>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/raghavirajumohan/">
+        <img src="assets/linkedin.png" alt="LinkedIn"> LinkedIn
       </a>
-    </li>
-  </ul>
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
-
-# Optional: Add Sass compression (not necessary but can help)
-sass:
-  style: compressed
-
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
+      <a href="https://github.com/RaghaviRajumohan/Rhythms-of-Data">
+        <img src="assets/github.png" alt="GitHub"> GitHub
+      </a>
+    </div>
+  </div>
+</body>
+</html>
